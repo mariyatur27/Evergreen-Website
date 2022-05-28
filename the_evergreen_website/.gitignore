@@ -2,6 +2,7 @@
 
 # dependencies
 /node_modules
+the_evergreen_website/node_modules
 /.pnp
 .pnp.js
 
