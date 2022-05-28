@@ -51,6 +51,11 @@ li.navbar-item {
   justify-content: center;
   background-color: black;
 }
+.footer {
+  padding: 2%;
+  justify-content: center;
+  background-color: black;
+}
 .centered{
   text-align: center;
 }
@@ -64,6 +69,7 @@ li.navbar-item {
 .hero h1 {
   font-size: 500%;
   font-weight: 200;
+  margin-top: -11%;
 }
 .hero h3 {
   font-size: 200%;
@@ -72,6 +78,117 @@ li.navbar-item {
   margin-bottom: 5%;
 }
 .hero{
-  padding: 10%;
+  padding: 14%;
   background-image: url('https://images.unsplash.com/photo-1494825514961-674db1ac2700?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80');
+}
+.row{
+  display: flex;
+}
+.middle{
+  justify-content: center;
+}
+.abt-box {
+  text-align: center;
+  width: 15%;
+  padding: 2%;
+  margin: 1%;
+  border-color: black;
+  border-style: solid;
+  border-width: 3px;
+  padding-bottom: 4%;
+  padding-top: 4%;
+  transition-duration: 1s;
+}
+button.sec-btn {
+  background: black;
+  color: white;
+  padding: 1% 4%;
+  font-size: 120%;
+  margin-top: 3%;
+  border-radius: 43px;
+}
+.abt-box:hover{
+  background-color: black;
+  color: white;
+  width: 20%;
+}
+.text-box {
+  text-align: center;
+  margin-top: 8%;
+  width: 80%;
+}
+.img-box {
+  width: 40%;
+  background-size: contain;
+}
+#img-box-1{
+  background-image: url('https://images.unsplash.com/photo-1598273953244-af803c254447?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80');
+}
+#img-box-2{
+  background-image: url('https://images.unsplash.com/photo-1569243963117-78bb6e7ff948?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80');
+}
+.text-box {
+  text-align: center;
+  margin-top: 11%;
+  margin-bottom: 11%;
+  width: 70%;
+  padding: 4%;
+}
+.text-box h1{
+  font-size: 313%;
+}
+.text-box p {
+  font-size: 131%;
+  margin-top: 6%;
+  font-weight: 200;
+}
+.text-section {
+  margin-top: 15%;
+  margin-bottom: 15%;
+}
+.bottom-space{
+  margin-bottom: 5%;
+}
+.contact-sec {
+  background-image: url(https://images.unsplash.com/photo-1494825514961-674db1ac2700?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80);
+  padding: 3%;
+}
+form.contact-form {
+  text-align: center;
+  padding: 1%;
+}
+input.contact-box {
+  width: 45%;
+  padding: 1%;
+  margin-bottom: 0.5%;
+}
+.contact-info {
+  text-align: center;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  line-height: 0.5;
+}
+.contact-info h3{
+  font-weight: 100;
+}
+.contact-info h4{
+  font-weight: 100;
+}
+a:hover{
+  text-decoration: underline;
+
+}
+.pressed-btn{
+  background-color: beige;
+}
+#submit-btn{
+  transition-duration: 1s;
+}
+#submit-btn:hover {
+  background-color: #303633;
+  border: none;
+  padding: 1% 6%;
+}
+button{
+  cursor: pointer;
 }
