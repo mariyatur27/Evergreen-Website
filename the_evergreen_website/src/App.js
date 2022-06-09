@@ -5,6 +5,11 @@ import Navbar from './public/navbar';
 import Hero from './public/hero';
 import Contact from './public/contact_form';
 import Footer from './public/footer';
+import Team from './public/team';
+import FAQ from './public/faq';
+import Reasons from './public/reasons_sec';
+import Invest from './public/invest';
+import Slides from './public/slide';
 import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 
 function App() {
@@ -14,28 +19,44 @@ function App() {
   return (
     <>
     <Navbar />
-    <Hero />
-    <About />
-    <Features />
-    <Contact />
-    <Footer />
       <Router>
         <Routes>
           <Route path='/team' 
           element={
             <div>
-              <About />
+              <Team />
+              <Contact />
+            </div>
+          } />
+          <Route path='/contact' 
+          element={
+            <div>
+              <Contact />
+            </div>
+          } />
+          <Route path='/faq' 
+          element={
+            <div>
+              <FAQ />
+              <Contact />
             </div>
           } />
           < Route path='/'
             element={
               <div>
+                <Hero />
+                <About />
+                <Slides />
                 <Features />
+                <Reasons />
+                <Invest />
+                <Contact />
               </div>
             }
           />
         </Routes>
      </Router>
+     <Footer />
     </>
   );
 }
