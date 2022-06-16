@@ -16,8 +16,8 @@ function Features() {
     <div className='row text-section'>
       <div className='img-box' id='img-box-1'></div>
       <div className='text-box' data-aos="fade-up">
-          <h1>Why Should You Invest with Evergreen Wealth Partners?</h1>
-          <p>With our extensive experience and background as real estate investors, we specialize in helping individual investors better diversify their portfolio with a safe and stable asset class: self-storage. We are not your typical investment firm - we only invest in one thing: self-storage. By focusing primarily on one asset class, we've learned an incredible amount about how this asset class performs in a variety of environments - economically, politically, you name it. We use these insights to power our long-term investment strategy</p>
+          <h1>WHY SHOULD YOU INVEST WITH EVERGREEN WEALTH PARTNERS?</h1>
+          <p>Seeking stable, lower-than-market risk investments? We get it. That's why Evergreen works with carefully selected self-storage facilities in proven neighborhoods and creates a stable investment vehicle that minimizes risk while maximizing returns. Our investors receive all the benefits of real estate's best asset class: self storage. Stability, recession-resistance, high performance, great cash flow and strong appreciation are just a few of these benefits. And you won't lose any sleep worrying about your investment when you work with Evergreen. We keep our investors in the loop with quarterly updates while letting you do what you do best: live your life on your terms.</p>
       </div>
       <div className='img-box' id='img-box-2'></div>
     </div>

@@ -1,34 +1,34 @@
-import { faChartLine } from "@fortawesome/free-solid-svg-icons";
+import { faAward, faChartLine, faCircleDollarToSlot, faMicrochip, faMoneyBills, faUmbrella , } from "@fortawesome/free-solid-svg-icons";
 
 export const reasons = [
     {
-        title: "360 Degree Advantage",
+        title: "Growing Demand",
         icon: faChartLine,
-        text: "Self-storage facilities run like a business, providing enormous cash flow potential alongside an operational blueprint. This creates efficiencies and scale while delivering all the same tax benefits that come with owning and holding real estate. These facilities create advantages for investors from all angels."
+        text: "Thanks to steady population growth and an increase in the residential rental market, the self-storage industry continues to expand, according to an IBIS World Research report."
     },
     {
-        title: "Growing Utilization",
-        icon: faChartLine,
-        text: "Recently, self-storage utilization among American households exceeded 10% meaning that more than 1 out of every 10 U.S. households are renting a self-storage unit."
+        title: "Lower Operating Expenses",
+        icon: faCircleDollarToSlot,
+        text: "Maintenance and operational expenses are low (< 35%) compared to other asset classes like apartments, multifamily, and commercial. This provides consistent cash flow for investors."
     },
     {
-        title: "Low Industry Consolidation",
-        icon: faChartLine,
-        text: "72% of self-storage facilities are owned by mom and pop operators which provides enormous acquisition potential and exit opportunities as large institutional investors will ultimately recognize the value of this asset class."
+        title: "High Leverage Technology",
+        icon: faMicrochip,
+        text: "Thanks to COVID-19 the self-storage industry has leapfrogged into the future utilizing automation from technology to deliver a high-quality customer experience while minimizing labor nad operational expenses."
     },
     {
-        title: "Low Maintenance",
-        icon: faChartLine,
-        text: "Given the highly standardized nature of the self-storage business, maintenance and operational expenses remain extremely low (< 33%) compared to other asset classes, providing consistent distribution for investors."
+        title: "Stable Cash Flow & Great Legal Protection",
+        icon: faMoneyBills,
+        text: "Predictable monthly income and 40+ years of state and federal legislation make self-storage facilities more favorable from an owner’s perspective compared to other real estate asset classes like residential."
     },
     {
-        title: "Resistant to Market Forces",
-        icon: faChartLine,
-        text: "Independent of macroeconomic factors, self-storage utilization remains reliable as bull markets yield increased consumption creating a need for more space and bare markets necessitate downsizing and consolidation."
+        title: "Economic Resilience",
+        icon: faUmbrella,
+        text: "Month-to-month leases allow for self-storage facilities to more accurately adapt to changing market conditions, this means more rental rate increases during times of high inflation, driving revenue and returns higher."
     },
     {
-        title: "Low Maintenance",
-        icon: faChartLine,
-        text: "Given the highly standardized nature of the self-storage business, maintenance and operational expenses remain extremely low (< 33%) compared to other asset classes, providing consistent distribution for investors."
+        title: "Lots of Opportunity",
+        icon: faAward,
+        text: "50% to 70% of self-storage facilities are owned by mom-and-pop operators, many of whom are excited to retire and not run their storage facility anymore. This provides big acquisition potential for players of all sizes."
     }
 ]

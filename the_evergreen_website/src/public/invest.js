@@ -17,6 +17,8 @@ function Invest() {
     <div className='centered invest-sec' id="invest-sec" data-aos='fade-up'>
       <FontAwesomeIcon icon={faSackDollar} size='5x'/>
         <h1>Ready to Invest With Us?</h1>
+        {/* <div data-fo-form="FORM-6D79E9378B" style="width:100%;height:400px;"></div> */}
+
         <button className='sec-btn'>Apply Today</button>
     </div>
    </>
