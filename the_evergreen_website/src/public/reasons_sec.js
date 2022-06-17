@@ -14,10 +14,10 @@ function Reasons() {
   return (
    <div className='reasons-sec'>
     <h1 className='centered' style={{color: 'white'}} data-aos="fade-right">Why Self-Storage?</h1>
-    <div className='row-3 middle'>
+    <div className='row-3 middle' data-aos="zoom-in">
         {reasons.map((data, key) => {
             return(
-                <div className='reason-box' key={key} data-aos="zoom-in">
+                <div className='reason-box' key={key}>
                     <FontAwesomeIcon icon={data.icon} size='4x'/>
                     <h2>{data.title}</h2>
                     <p>{data.text}</p>
