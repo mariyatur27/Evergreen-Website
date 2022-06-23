@@ -13,7 +13,7 @@ function Reasons() {
 
   return (
    <div className='reasons-sec'>
-    <h1 className='centered' style={{color: 'white'}} data-aos="fade-right">Why Self-Storage?</h1>
+    <h1 className='centered' style={{color: 'white'}} data-aos="fade-right">Why Is Self-Storage A Great Investment?</h1>
     <div className='row-3 middle' data-aos="zoom-in">
         {reasons.map((data, key) => {
             return(

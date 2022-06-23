@@ -10,6 +10,7 @@ import FAQ from './public/faq';
 import Reasons from './public/reasons_sec';
 import Invest from './public/invest';
 import Slides from './public/slide';
+import onceHub from './public/oncehub';
 import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 
 function App() {
@@ -50,6 +51,7 @@ function App() {
                 <Features />
                 <Reasons />
                 <Invest />
+                <onceHub />
                 <Contact />
               </div>
             }

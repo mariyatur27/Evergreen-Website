@@ -4,7 +4,8 @@ import { faArrowLeftLong, faArrowRightLong } from '@fortawesome/free-solid-svg-i
 //Importing AOS Animations
 import AOS from "aos";
 import "aos/dist/aos.css";
-import videoBg from '../assets/drone_video.mov'
+import videoBg_1 from '../assets/drone_video.mov'
+import videoBg_2 from '../assets/drone_video_2.mov'
 
 function Slides() {
 
@@ -40,7 +41,7 @@ function Slides() {
         }
     }
 
-    setInterval(nextSlide, 3000)
+    setInterval(nextSlide, 6000)
 
     const prevSlide = () => {
         if(index == 0){
@@ -61,19 +62,19 @@ function Slides() {
         <FontAwesomeIcon icon={faArrowLeftLong} color='white' className='arrow-icons' style={{cursor: 'pointer'}} id='back-arrow'/>
     </div>
 
-   <div className='slides'>
+   <div className='slides' id='slides'>
     <div className='slide active'>
-    <video src={videoBg} autoPlay loop muted className='bg-video'/>
+    <video src={videoBg_1} autoPlay loop muted className='bg-video'/>
         <h1>Who Are We?</h1>
         <p>We are a self-storage investment company that works to maximize returns while minimizing risk. By offering investors stable, high-yielding properties with opportunities for capital appreciation and a variety of tax benefits, we can provide stability and growth in an unpredictable economy.</p>
     </div>
     <div className='slide'>
-    <video src={videoBg} autoPlay loop muted className='bg-video'/>
+    <video src={videoBg_2} autoPlay loop muted className='bg-video'/>
         <h1>We Love Self-Storage!</h1>
         <p>We at Evergreen Wealth Partners pride ourselves on our ability to deliver market-beating returns on self-storage investments. With our background as real estate investors, we specialize in helping individual investors better diversify their portfolios with a safe and stable asset class: self-storage. </p>
     </div>
     <div className='slide'>
-    <video src={videoBg} autoPlay loop muted className='bg-video'/>
+    <video src={videoBg_1} autoPlay loop muted className='bg-video'/>
         <h1>The Benefit of Focus</h1>
         <p>We are not your typical investment firm - we only invest in one thing: self-storage. By focusing primarily on one asset class, we improve our outcomes and reduce our risk. By focusing, we continually learn about how this asset class performs in a variety of environments - economically, politically, you name it. We use these insights to power our long-term investment strategy.</p>
     </div>

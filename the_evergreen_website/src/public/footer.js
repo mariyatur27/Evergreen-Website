@@ -5,7 +5,7 @@ function Footer() {
    <div className='footer'>
        <div className='links row middle' style={{width: '100%'}}>
             <li className='navbar-item'><a href='/#about-section'>About</a></li>
-            <li className='navbar-item'><a href='/team'>Team</a></li>
+            {/* <li className='navbar-item'><a href='/team'>Team</a></li> */}
             <li className='navbar-item'><a href='/faq'>FAQ</a></li>
             {/* <li className='navbar-item'><a>Results</a></li> */}
             <li className='navbar-item'><a href='/contact'>Contact Us</a></li>

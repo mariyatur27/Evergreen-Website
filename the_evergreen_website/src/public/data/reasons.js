@@ -14,7 +14,7 @@ export const reasons = [
     {
         title: "High Leverage Technology",
         icon: faMicrochip,
-        text: "Thanks to COVID-19 the self-storage industry has leapfrogged into the future utilizing automation from technology to deliver a high-quality customer experience while minimizing labor nad operational expenses."
+        text: "Thanks to COVID-19 the self-storage industry has leapfrogged into the future utilizing automation from technology to deliver a high-quality customer experience while minimizing labor and operational expenses."
     },
     {
         title: "Stable Cash Flow & Great Legal Protection",

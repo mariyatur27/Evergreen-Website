@@ -36,7 +36,7 @@ function About() {
       </div>
     </div>
     <div className='centered'>
-      <button className='sec-btn'>Learn More</button>
+      <a href='#slides'><button className='sec-btn'>Learn More</button></a>
     </div>
    </>
   )
