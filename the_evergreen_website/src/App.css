@@ -228,7 +228,6 @@
   #submit-btn:hover {
     background-color: #606965;
     border: none;
-    padding: 5% 15%;
     color: white;
   }
   
@@ -395,7 +394,9 @@
   .hero-btn {
     background-color: white;
     padding: 5%;
-    border: none;
+    border-color: black;
+    border-style: solid;
+    /* border: none; */
     color: black;
     width: 50%;
     margin-top: 4%;
@@ -463,10 +464,12 @@
     margin-top: 39%;
   }
   #submit-btn {
-    margin-bottom: 29%;
-    padding: 5% 15%;
-    background: #e4dede;
+    margin-bottom: 37%;
+    padding: 3% 8%;
+    background: white;
     color: black;
+    border-color: black;
+    border-style: solid;
   }
   .footer {
     padding: 19%;
@@ -548,5 +551,22 @@
   .hero h1 {
     margin-top: -5%;
     font-size: 360%;
+  }
+}
+@media(min-width: 1550px){
+  .bottom-space {
+    margin-bottom: -1%;
+  }
+  .hero h1 {
+    font-size: 500%;
+    font-weight: 200;
+    margin-top: -7%;
+  }
+  img.logo {
+    margin-top: -12%;
+    width: 32%;
+  }
+  .hero {
+    padding: 12%;
   }
 }
