@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/Evergreen-Website/static/css/main.66ba9535.css",
-    "main.js": "/Evergreen-Website/static/js/main.a874d56b.js",
-    "static/media/drone_video_2.mov": "/Evergreen-Website/static/media/drone_video_2.1c3f29ea98ff2e813be0.mov",
-    "static/media/drone_video.mov": "/Evergreen-Website/static/media/drone_video.3762d65c66ecaf01ed52.mov",
-    "static/media/black_logo.png": "/Evergreen-Website/static/media/black_logo.d828ba702308adb9c5d8.png",
-    "index.html": "/Evergreen-Website/index.html",
-    "main.66ba9535.css.map": "/Evergreen-Website/static/css/main.66ba9535.css.map",
-    "main.a874d56b.js.map": "/Evergreen-Website/static/js/main.a874d56b.js.map"
+    "main.css": "/static/css/main.66ba9535.css",
+    "main.js": "/static/js/main.b455c5cd.js",
+    "static/media/drone_video_2.mov": "/static/media/drone_video_2.1c3f29ea98ff2e813be0.mov",
+    "static/media/drone_video.mov": "/static/media/drone_video.3762d65c66ecaf01ed52.mov",
+    "static/media/black_logo.png": "/static/media/black_logo.d828ba702308adb9c5d8.png",
+    "index.html": "/index.html",
+    "main.66ba9535.css.map": "/static/css/main.66ba9535.css.map",
+    "main.b455c5cd.js.map": "/static/js/main.b455c5cd.js.map"
   },
   "entrypoints": [
     "static/css/main.66ba9535.css",
-    "static/js/main.a874d56b.js"
+    "static/js/main.b455c5cd.js"
   ]
 }
