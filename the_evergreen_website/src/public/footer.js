@@ -14,8 +14,8 @@ function Footer() {
        </div>
        <div className='contact-info' style={{color: 'white'}}>
            <h3>2022 Evergreen Investment</h3>
-           <a href='mailto:' style={{textDecoration: 'blink', color: 'white'}}><h4>Email: info@evergreen.com</h4></a>
-           <a href='tel:' style={{textDecoration: 'blink', color: 'white'}}><h4>Phone: 123-345-6789</h4></a>
+           <a href='mailto:evergreenwealthpartners@gmail.com' style={{textDecoration: 'blink', color: 'white'}}><h4>Email: evergreenwealthpartners@gmail.com</h4></a>
+           <a href='tel:+13195942647' style={{textDecoration: 'blink', color: 'white'}}><h4>Phone: 319-594-2647</h4></a>
        </div>
    </div>
   )

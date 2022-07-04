@@ -14,9 +14,9 @@ function Slides() {
         AOS.refresh();
       }, []);
     
-    const slides = document.querySelectorAll('.slide');
-    const back_arr = document.getElementById('back-arrow');
-    const next_arr = document.getElementById('next-arrow');
+    const slides = document.getElementsByClassName('slide');
+    // const back_arr = document.getElementById('back-arrow');
+    // const next_arr = document.getElementById('next-arrow');
     let index = 0;
     // let i = 0;
 
@@ -27,40 +27,36 @@ function Slides() {
         slides[n].classList.add('active');
     }
 
-    const prepareSlide = n => {
-        currentSlide(n);
-    }
-
     const nextSlide = () => {
-        if(index == slides.length-1){
+        if(index === slides.length-1){
             index = 0;
-            prepareSlide(index);
+            currentSlide(index);
         }else{
             index++;
-            prepareSlide(index);
-        }
-    }
-
-    setInterval(nextSlide, 6000)
-
-    const prevSlide = () => {
-        if(index == 0){
-            index = slides.length-1;
-            currentSlide(index);
-        }else{
-            index--;
             currentSlide(index);
         }
     }
+
+    setInterval(nextSlide, 15000)
+
+    // const prevSlide = () => {
+    //     if(index == 0){
+    //         index = slides.length-1;
+    //         currentSlide(index);
+    //     }else{
+    //         index--;
+    //         currentSlide(index);
+    //     }
+    // }
 
     // back_arr.addEventListener('click', prevSlide);
     // next_arr.addEventListener('click', nextSlide);
 
   return (
   <div className='row-slides' data-aos="fade-right">
-    <div className='arrow-nav'>
+    {/* <div className='arrow-nav'>
         <FontAwesomeIcon icon={faArrowLeftLong} color='white' className='arrow-icons' style={{cursor: 'pointer'}} id='back-arrow'/>
-    </div>
+    </div> */}
 
    <div className='slides' id='slides'>
     <div className='slide active'>
@@ -80,9 +76,9 @@ function Slides() {
     </div>
    </div>
 
-   <div className='arrow-nav'>
+   {/* <div className='arrow-nav'>
         <FontAwesomeIcon icon={faArrowRightLong} color='white' className='arrow-icons' style={{cursor: 'pointer'}} id='next-arrow'/>   
-    </div>
+    </div> */}
    </div>
   )
 }
